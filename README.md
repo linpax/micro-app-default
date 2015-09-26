@@ -1,2 +1,2 @@
 # micro-app-default
-MicroPHP default application template
+MicroPHP application template Default
