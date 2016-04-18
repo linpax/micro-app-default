@@ -1,9 +1,9 @@
 <?php
 
-namespace App\widgets;
+namespace App\Widgets;
 
-use App\components\View;
-use Micro\mvc\Widget;
+use App\Components\View;
+use Micro\Mvc\Widget;
 
 class MenubarWidget extends Widget
 {
@@ -14,7 +14,6 @@ class MenubarWidget extends Widget
     public function run()
     {
         $view = new View($this->container);
-        //$view->addParameter('menu', $this->links);
         $view->view = 'menubar';
         $view->asWidget = true;
 

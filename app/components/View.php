@@ -1,9 +1,9 @@
 <?php
 
-namespace App\components;
+namespace App\Components;
 
-use Micro\base\IContainer;
-use Micro\mvc\views\PhpView;
+use Micro\Base\IContainer;
+use Micro\Mvc\Views\PhpView;
 
 class View extends PhpView
 {

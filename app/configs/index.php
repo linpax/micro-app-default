@@ -13,11 +13,14 @@ return [
     // Site name
     'company' => 'Micro',
     'slogan' => 'simply hmvc php framework',
+
     // Language
     'lang' => 'en',
+
     // Errors
-    'errorController' => '\App\controllers\DefaultController',
+    'errorController' => '\App\Controllers\DefaultController',
     'errorAction' => 'error',
+
     // Setup components
     'components' => $components
 ];

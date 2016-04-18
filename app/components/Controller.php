@@ -1,13 +1,13 @@
 <?php
 
-namespace App\components;
+namespace App\Components;
 
-use Micro\base\Container;
-use Micro\mvc\controllers\ViewController as BaseController;
+use Micro\Base\IContainer;
+use Micro\Mvc\controllers\ViewController as BaseController;
 
 /**
  * Class Controller
- * @package App\components
+ * @package App\Components
  */
 class Controller extends BaseController
 {
@@ -16,12 +16,12 @@ class Controller extends BaseController
      *
      * @access public
      *
-     * @param Container $container
+     * @param IContainer $container
      * @param string $modules
      *
      * @result void
      */
-    public function __construct(Container $container, $modules = '')
+    public function __construct(IContainer $container, $modules = '')
     {
         $this->layout = 'maket';
 
